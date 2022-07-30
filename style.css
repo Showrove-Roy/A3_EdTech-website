@@ -1,3 +1,11 @@
 .slider-middle {
   bottom: 25% !important;
 }
+
+.customize-carousel-caption {
+  right: 8% !important;
+  bottom: 1.25rem !important;
+  left: 8% !important;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
