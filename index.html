@@ -29,7 +29,7 @@
     <header class="container">
       <!-- Navation start  -->
       <section class="mb-5">
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg bg-light fixed-top container">
           <div class="container-fluid">
             <a class="navbar-brand fw-bolder" href="#">Pro Edu</a>
             <button
@@ -54,27 +54,35 @@
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Courses</a>
+                  <a class="nav-link" href="#course">Courses</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Deals</a>
+                  <a class="nav-link" href="#deals">Deals</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Success</a>
+                  <a class="nav-link" href="#success">Success</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
+                  <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Register</a>
+                  <a class="nav-link" href="#register">Register</a>
                 </li>
               </ul>
             </div>
 
             <form class="d-lg-block d-none" role="search">
-              <button class="btn btn-outline-info fw-semibold" type="submit">
-                Register
-              </button>
+
+
+              <button
+              type="button"
+              class="btn btn-outline-info fw-semibold"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+              data-bs-whatever="@mdo"
+            >
+              Register
+            </button>
             </form>
           </div>
         </nav>
@@ -83,7 +91,7 @@
 
       <!-- Slider start  -->
 
-      <section class="my-5">
+      <section class="my-5 pt-5">
         <div
           id="carouselExampleControls"
           class="carousel slide"
@@ -170,7 +178,7 @@
     <main class="container my-5 py-5">
       <!-- Course section start  -->
 
-      <section class="my-5">
+      <section id="course" class="my-5">
         <div class="text-center">
           <h2 class="fw-bolder">
             Discover Our Popular <br />
@@ -401,7 +409,7 @@
 
       <!-- Exploring Feature start  -->
 
-      <section class="my-5">
+      <section id="deals" class="my-5">
         <div class="card mb-3">
           <div class="row g-0">
             <div class="col-md-5">
@@ -462,7 +470,7 @@
 
       <!-- Register Feature Sction Start  -->
 
-      <section class="my-5 py-5">
+      <section id="register" class="my-5 py-5">
         <div
           class="bg-info rounded-2 d-flex justify-content-around align-items-center flex-wrap p-3"
           style="height: 16rem"
@@ -555,7 +563,7 @@
 
       <!-- Student Section satart  -->
 
-      <section class="my-5 py-5">
+      <section id="success" class="my-5 py-5">
         <div class="section-title">
           <h2 class="fw-bold">
             Meet Our Successfull
@@ -934,7 +942,7 @@
       <!-- Feedback section End  -->
 
       <!-- FAQ section start  -->
-      <section class="my-5">
+      <section id="about" class="my-5">
         <div class="text-center py-3">
           <h2 class="fw-bolder">Frequently Asked Questions</h2>
           <p>
@@ -1113,17 +1121,17 @@
           <p>Privacy Ploicy | Terms of use</p>
           <div class="d-flex gap-3">
               <div class="bg-white rounded-circle d-flex justify-content-center align-items-center" style="height: 3rem; width: 3rem;">
-                <a href="https://www.facebook.com/programmingHero" class="fs-5">
+                <a href="https://www.facebook.com/programmingHero" class="fs-5 text-info">
                   <i class="fa-brands fa-facebook-f"></i>
                 </a>
               </div>  
               <div class="bg-white rounded-circle d-flex justify-content-center align-items-center" style="height: 3rem; width: 3rem;">
-                <a href="https://www.facebook.com/programmingHero" class="fs-5">
+                <a href="https://www.facebook.com/programmingHero" class="fs-5 text-info">
                   <i class="fa-brands fa-twitter"></i>
                 </a>
               </div>  
               <div class="bg-white rounded-circle d-flex justify-content-center align-items-center" style="height: 3rem; width: 3rem;">
-                <a href="https://www.facebook.com/programmingHero" class="fs-5">
+                <a href="https://www.facebook.com/programmingHero" class="fs-5 text-info">
                   <i class="fa-brands fa-linkedin-in"></i>
                 </a>
               </div>  
